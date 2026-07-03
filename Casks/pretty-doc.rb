@@ -7,7 +7,7 @@ cask "pretty-doc" do
   desc "Markdown reader with fluid, responsive typography"
   homepage "https://github.com/erguerra/PrettyDoc"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   # Builds are currently unsigned (no Apple Developer ID). Homebrew will
   # quarantine the app, so first launch requires right-click -> Open, or
